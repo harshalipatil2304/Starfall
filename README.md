@@ -4,6 +4,10 @@ Starfall is a fun browser-based arcade game where players catch falling stars, a
 
 Move your character left and right, collect as many stars as possible, and challenge yourself to beat your high score!
 
+## 🌐 Live Demo
+
+Play the game here: [Starfall – Catch the Stars](https://starfall-kohl.vercel.app/)
+
 ## 🎮 Features
 
 - **Star Collection:** Catch falling stars to increase your score.
