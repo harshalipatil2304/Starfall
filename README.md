@@ -1,16 +1,101 @@
-# React + Vite
+# ⭐ Starfall – Catch the Stars
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Starfall is a fun browser-based arcade game where players catch falling stars, avoid dangerous bombs, and try to achieve the highest score.
 
-Currently, two official plugins are available:
+Move your character left and right, collect as many stars as possible, and challenge yourself to beat your high score!
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 🎮 Features
 
-## React Compiler
+- **Star Collection:** Catch falling stars to increase your score.
+- **Avoid Bombs:** Stay away from bombs to protect your lives.
+- **Score Tracking:** Track your current score during gameplay.
+- **High Score:** Your best score is saved using browser local storage.
+- **Increasing Difficulty:** The game becomes more challenging as your score increases.
+- **Keyboard Controls:** Use the left and right arrow keys to move.
+- **Mobile Controls:** Play using on-screen touch buttons.
+- **Pause and Resume:** Pause the game whenever needed.
+- **Sound Effects:** Enjoy sound effects during gameplay.
+- **Responsive Design:** Play on desktop, tablet, and mobile screens.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 🛠️ Technologies Used
 
-## Expanding the ESLint configuration
+- React.js
+- JavaScript
+- Phaser 3
+- HTML5
+- CSS3
+- Vite
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🚀 Getting Started
+
+Follow these steps to run the project on your local machine.
+
+### Prerequisites
+
+- Node.js
+- npm
+
+### Installation
+
+1. Clone the repository:
+
+   ```bash
+   git clone https://github.com/harshalipatil2304/Starfall.git
+   ```
+
+2. Navigate to the project folder:
+
+   ```bash
+   cd Starfall
+   ```
+
+3. Install dependencies:
+
+   ```bash
+   npm install
+   ```
+
+4. Start the development server:
+
+   ```bash
+   npm run dev
+   ```
+
+5. Open the local URL displayed in your terminal.
+
+## 🕹️ How to Play
+
+1. Click **Start Game** to begin.
+2. Use the left and right arrow keys or on-screen buttons to move.
+3. Catch falling stars to earn points.
+4. Avoid bombs because they reduce your lives.
+5. Try to achieve your highest score!
+
+## 📂 Project Structure
+
+```text
+Starfall/
+├── public/
+├── src/
+│   ├── assets/
+│   ├── App.css
+│   ├── App.jsx
+│   ├── Game.jsx
+│   ├── index.css
+│   └── main.jsx
+├── .gitignore
+├── index.html
+├── package.json
+├── package-lock.json
+└── vite.config.js
+```
+
+## 👩‍💻 Author
+
+**Harshali Patil**
+
+- GitHub: [harshalipatil2304](https://github.com/harshalipatil2304)
+
+---
+
+⭐ If you like this project, consider giving it a star!
