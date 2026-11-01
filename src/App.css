@@ -1,0 +1,57 @@
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body,
+#root {
+  width: 100%;
+  min-height: 100%;
+  margin: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background: #0b0a1a;
+  overflow-x: hidden;
+  overscroll-behavior: none;
+  touch-action: pan-y;
+}
+
+.app {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 24px;
+  background: radial-gradient(circle at top, #292052 0%, #0b0a1a 65%);
+}
+
+#starfall-game {
+  width: 100%;
+  max-width: 800px;
+  margin: 0 auto;
+  touch-action: none;
+  overflow: hidden;
+  border: 2px solid #8b7cf6;
+  border-radius: 16px;
+  box-shadow: 0 0 35px rgba(139, 124, 246, 0.25);
+}
+
+#starfall-game canvas {
+  display: block;
+  width: 100% !important;
+  height: auto !important;
+}
+
+@media (max-width: 600px) {
+  .app {
+    padding: 12px;
+  }
+
+  #starfall-game {
+    width: 100%;
+    border-radius: 12px;
+  }
+}
