@@ -8,6 +8,14 @@ Move your character left and right, collect as many stars as possible, and chall
 
 Play the game here: [Starfall – Catch the Stars](https://starfall-kohl.vercel.app/)
 
+## 📸 Screenshots
+
+### Start Screen
+![Starfall Start Screen](screenshots/start-game.png)
+
+### Gameplay
+![Starfall Gameplay](screenshots/gameplay.png)
+
 ## 🎮 Features
 
 - **Star Collection:** Catch falling stars to increase your score.
